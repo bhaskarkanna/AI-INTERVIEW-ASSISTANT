@@ -19,8 +19,8 @@ try {
   
   // If not found, use hardcoded key for testing
   if (!apiKey || apiKey === 'undefined' || apiKey.trim() === '') {
-    console.log('Environment variable not found, using hardcoded key for testing');
-    apiKey = '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';
+    console.warn('❌ OpenAI API key not found. AI features will not work until key is provided in environment variables.');
+    const openai = new OpenAI({apiKey: process.env.VITE_OPENAI_API_KEY});
   }
   
   console.log('API Key check:', apiKey ? 'Present' : 'Missing');
