@@ -259,11 +259,7 @@ This project is created for the Swipe Internship Assignment.
 - **Real-time Sync**: Both tabs stay synchronized
 - **Error Handling**: Graceful handling of file uploads and network issues
 
-## Demo
-
-- **Live Demo**: [Deploy to Vercel/Netlify]
-- **Video Demo**: [2-5 minute walkthrough video]
 
 ## Contact
 
-For questions about this project, please contact [your-email@example.com]
+For questions about this project, please contact [bhaskarkanna924@gmail.com]
